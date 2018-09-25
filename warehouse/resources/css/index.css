@@ -1,0 +1,143 @@
+nav a{
+  font-family: Ubuntu, sans-serif;
+  font-size: 21px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:active {
+  letter-spacing: 5px;
+}
+
+.hero {
+  width: 90%;
+  height: 32.75rem;
+  margin-top: 3rem;
+  margin-left: 5%;
+  border-radius: 1.5rem;
+  background-image: url('../img/home/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  opacity: inherit;
+}
+
+.hero h2 {
+  padding-top: 25rem;
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  font-family: Ubuntu, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero h2:hover {
+  font-weight: bold;
+}
+
+.hero h2:active {
+  letter-spacing: 5px;
+}
+
+.products {
+  padding: 0 5rem 6rem 5rem;
+}
+
+.products h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+  font-size: 27px;
+  color: rgb(6, 146, 193);
+}
+
+.products a {
+  font-family: Ubuntu, sans-serif;
+  font-size: 23px;
+}
+
+.products a:hover {
+    font-weight: bold;
+  }
+
+.products a:active {
+  letter-spacing: 3px;
+}
+
+.products .price {
+  color: rgb(6, 146, 193);
+}
+
+.products img {
+  border-radius: 5px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.landing .product-list {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.categories h3 {
+  margin-bottom: 0;
+}
+
+footer h4 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  color: rgb(6, 146, 193);
+}
+
+footer a {
+  font-family: Ubuntu, sans-serif;
+  font-size: 15px;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
+footer a:active {
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1020px) {
+  .landing .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .landing .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .hero {
+    padding-left: 0;
+    text-align: center;
+    width: 508,5px;
+  }
+
+  .hero h2 {
+    padding-top: 7rem;
+  }
+
+  .hero p {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .landing .product-list {
+    grid-template-columns: 1fr;
+  }
+}
